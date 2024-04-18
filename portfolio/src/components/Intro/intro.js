@@ -26,7 +26,10 @@ const Intro = () => {
         <span> <span className='grey'>&lt; </span>Web Developer <span className='grey'>/&gt;</span></span>
         {/* <span className="introText">I'm <span className="introName">Neetha</span><br />Website Designer</span> */}
         {/* <p className="introPara">I am a skilled and passionate web developer with experience in creating visual<br /> appending and user-friendly websites. </p> */}
-        <Link><button className="btn">Hire Me</button></Link>
+        {/* <Link><button className="btn">Hire Me</button></Link> */}
+        <a href={require("../../assets/neetha_francis.pdf")} download="neetha_francis.pdf">
+          <button className="btn">Hire Me</button>
+        </a>
       </div>
       <div id="row">
 
@@ -37,4 +40,4 @@ const Intro = () => {
   )
 }
 
-export default Intro;
+export default Intro;
