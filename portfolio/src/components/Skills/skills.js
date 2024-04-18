@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <section id="skills">
         <span className="skillTitle">What I do</span>
-        <span className="skillDesc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley o</span>
+        <span className="skillDesc">I am a skilled and passionate web developer with experience in creating visual<br /> appending and user-friendly websites.</span>
         <div className='skillBars'>
             <div className="skillBar">
                 <div className="skillBarText">

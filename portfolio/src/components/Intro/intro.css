@@ -60,7 +60,160 @@
 @media screen and _(max-width:480px) {
     .bg{
         right: -10vw;
+    }   
+}
+
+
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    /* max-width: 75rem; */
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #22223b;
+    color: #eae0d5;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    top: -4rem;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.introContent {
+    /* height: 100vh; */
+    width: 100vw;
+    padding: 10rem 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: yellow;
+
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.btn {
+    margin: 2rem 0;
+    font-size: medium;
+    padding: 0.75rem 1.5rem;
+    /* border-radius: 2rem; */
+    /* border: none; */
+    background: #22223b;
+    color: #eae0d5;
+    border: 1px solid #eae0d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1rem; */
+    /* border-radius: 5rem; */
+    height: 2rem;
+    -moz-border-radius: 60px / 20px;
+    -webkit-border-radius: 60px / 20px;
+    border-radius: 60px / 20px;
+
+}
+
+.btn:hover {
+    background-color: #eae0d5;
+    color: #22223b;
+}
+
+.grey {
+    color: grey;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    letter-spacing: 5px;
+    /* Adjust as needed */
+    font-size: '3rem';
+    animation:
+        typing 3.5s steps(50, end),
+        blink-caret .75s step-end infinite;
+}
+
+#row::after {
+    content: "";
+    position: absolute;
+    top: calc(var(--y, 0) * 1px - 50px);
+    left: calc(var(--x, 0) * 1px - 50px);
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+    background: radial-gradient(#cef230, #ffffff00 80%);
+    transition: opacity 1s;
+}
+#row:hover::after {
+    opacity: 1;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
     }
-   
-    
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+@media screen and _(max-width:480px) {
+    .bg {
+        right: -10vw;
+    }
+}
+
+@media screen and _(max-width:840px) {
+    .bg {
+        right: -10vw;
+    }
+
+    .introContent {
+        font-size: 10vw;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+
 }
