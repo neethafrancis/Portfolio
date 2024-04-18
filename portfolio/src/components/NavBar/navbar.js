@@ -8,11 +8,13 @@ const Navbar = () => {
     <nav className="navbar">
         {/* <img width="104px" src={logo} alt="Logo" /> */}
         <div className="desktopMenu">
-           <Link className='desktopMenuListItem'>Home</Link> 
-           <Link className='desktopMenuListItem'>About</Link>
-           <Link className='desktopMenuListItem'>Project</Link>
+           <Link activeClass="active" to="intro" spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Home</Link> 
+           <Link activeClass="active" to="skills" spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>About</Link>
+           <Link activeClass="active" to="works" spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>Project</Link>
         </div>
-        <button className="desktopMenuBtn">
+        <button className="desktopMenuBtn" onClick={() => {
+          document.getElementById('contactPage').scrollIntoView();
+        }}>
             {/* <img src="" alt="" className="desktopMenuImg" /> */}
             Contact Me
         </button>
