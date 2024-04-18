@@ -55,8 +55,6 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    background-color: #22223b;
-    color: #eae0d5;
 }
 .skillTitle{
     font-size: 3rem;
@@ -84,12 +82,12 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     /* background: rgb(50, 50, 50); */
-    background-color: #c9ada7;
+    background-color: #4a4e69;
 
 }
 .skillBarText{
     font-size:0.75rem;
-    font-weight: 200;
+    font-weight:200;
 }
 
 #skills{
@@ -136,5 +134,5 @@
 }
 .skillBarText{
     font-size:0.75rem;
-    font-weight: 200;
+    font-weight:200;
 }

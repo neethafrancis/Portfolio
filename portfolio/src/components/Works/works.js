@@ -19,7 +19,7 @@ const Works = () => {
           </div>
         </div>
 
-        <div className='container'>
+        <div className='container ml'>
           <div className='card'>
           <div className='front'>
           front of card
