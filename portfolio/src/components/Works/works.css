@@ -58,14 +58,21 @@ backface-visibility: hidden;
   /* #c9ada7; */
   /* background-image:  linear-gradient( #4a4e69, #9393ae); */
   /* background-image: url('../../assets/paper.jpeg'); */
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  padding-top: 4rem;
 }
 
 .back{
   /* background-image: url('../../assets/paper.jpeg'); */
   background-color: #4a4e69;
   transform: rotateY(180deg);
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  /* display: flex; */
 }
 .container:hover > .card{
-  cursor: pointer;
   transform: rotateY(180deg);
 }

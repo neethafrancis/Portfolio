@@ -12,7 +12,7 @@ const Skills = () => {
     return (
         <section id="skills">
             <span className="skillTitle">About Me</span>
-            <span className="skillDesc">I am a skilled and passionate web developer with experience in creating visual<br /> appending and user-friendly websites.</span>
+            <span className="skillDesc">I am a skilled and passionate web developer with experience in creating visually<br /> appealing and user-friendly websites.</span>
  
             <div className='column-about'>
                 <div style={{ width: '50%', marginTop: '5rem'}}>
@@ -30,7 +30,6 @@ const Skills = () => {
                             What I'm good at..
                         </AccordionSummary>
                         <AccordionDetails>
-                            Listed are my strong skills:
                             <p>ReactJs</p>
                             <p>JavaScript</p>
                             <p>HTML5</p>
@@ -74,8 +73,7 @@ const Skills = () => {
                             My Academic Qualifications..
                         </AccordionSummary>
                         <AccordionDetails>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget.
+                            Currently pursuing my Bachelor's in Computer Science Engineering
                         </AccordionDetails>
                     </Accordion>
                 </div>
@@ -87,4 +85,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Skills

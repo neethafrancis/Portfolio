@@ -1,6 +1,6 @@
 .footer{
     width: 100vw;
-    height: 4rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     background-color: #eae0d5;
@@ -28,3 +28,13 @@ a:link {
   a:active {
    color: #22223b;
   }
+.icons{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 10%;
+  justify-content: space-between;
+  display: flex;
+}
+.text-footer{
+  margin-bottom: 1rem;
+}

@@ -21,13 +21,13 @@ const Contact = () => {
       };
   return (
     <section id="contactPage">
-        <h1 className="contactPageTitle">Contact Me</h1>
-        <span className='contactDesc'>Fill The Form </span>
+        <h1 className="contactPageTitle">Let's Talk Web Dev!</h1>
+        <span className='contactDesc'>Always Learning - Share Your Thoughts! </span>
         <form className="contactForm" ref={form} onSubmit={sendEmail} >
-            <input type="text" className="name" placeholder="Your Name" name="your_name"/>
-            <input type="email" className="email" placeholder="Your email" name="your_email"/>
-            <textarea rows="5" cols="30" name="message" placeholder="message" className="msg"></textarea>
-            <button className="submitBtn" type="submit" value="send" >Submit</button>
+            <input type="text" className="name" placeholder="Name" name="your_name"/>
+            <input type="email" className="email" placeholder="Email" name="your_email"/>
+            <textarea rows="5" cols="30" name="message" placeholder="Type your message.." className="msg"></textarea>
+            <button className="submit-button" type="submit" value="send" >Submit</button>
             
         </form>
     </section>
@@ -35,4 +35,4 @@ const Contact = () => {
   ); 
 }
 
-export default Contact
+export default Contact

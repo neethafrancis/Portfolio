@@ -32,23 +32,36 @@
     max-width: 40rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
-    color: white;
+    color: #eae0d5;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40,40,40);
-}
-.submitBtn{
-    background: white;
-    padding: 0.5rem 3.5rem;
-    border: none;
-    border-radius: 0.5rem;
-    margin: 2rem;
-
+    background: #4a4e69;
 }
 .links{
     display: flex;
     flex-wrap: wrap;
 }
-.link{
-    
+.submit-button {
+    background: #22223b;
+    color: #eae0d5;
+    border: 1px solid #eae0d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    height: 2rem;
+    -moz-border-radius: 80px / 40px;
+    -webkit-border-radius: 60px / 20px;
+    border-radius: 60px / 20px;
+    font-size: medium;
+    width: 7rem;
+    margin-bottom: 5rem;
+}
+.submit-button:hover{
+    background-color: #eae0d5;
+    color:#22223b;
+}
+.msg{
+    margin-bottom: 3rem;
 }
