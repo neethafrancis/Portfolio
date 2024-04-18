@@ -84,14 +84,13 @@
 .desktopMenuListItem:hover {
     color: #eae0d5;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #eae0d5;
+    border-bottom: 3px solid #eae0d5; 
 }
 
 .active {
     color: #eae0d5;
     padding: bottom 0.5rem;
-    ;
-    border-bottom: 3px solid #eae0d5;
+    border-bottom: 3px solid #eae0d5;  
 
 }
 

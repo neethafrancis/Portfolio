@@ -136,3 +136,19 @@
     font-size:0.75rem;
     font-weight:200;
 }
+.column-about{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3rem;
+    justify-content: space-between;
+  }
+  .image-container{
+      width: 20rem;
+      height: 20rem;
+      border-radius: 15rem;
+      border: 4px solid #4a4e69;
+  }
+  .image-container:hover{
+   border: 4px solid #eae0d5;
+ }

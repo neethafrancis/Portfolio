@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import './intro.css';
-import bg from '../../assets/image.png';
 import { Link } from 'react-scroll';
 
 
