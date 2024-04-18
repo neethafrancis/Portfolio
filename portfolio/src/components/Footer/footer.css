@@ -1,0 +1,30 @@
+.footer{
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: #eae0d5;
+    color: #22223b;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+    flex-direction: column;
+}
+a:link {
+    color: #22223b;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #22223b;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #22223b;
+  }
+  
+  /* selected link */
+  a:active {
+   color: #22223b;
+  }
