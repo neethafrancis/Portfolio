@@ -76,7 +76,7 @@ const Skills = () => {
                     </Accordion>
                 </div>
                 <div >
-                    <img className='image-container' src={img}></img>
+                    <img className='image-container' src={img} alt="image"></img>
                 </div>
             </div>
         </section>
