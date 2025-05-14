@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './intro.css';
-import { Link } from 'react-scroll';
+
 
 
 const Intro = () => {
